@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-defscript",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Bundle defscript modules",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --experimental-modules --es-module-specifier-resolution=node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defscript/rollup-plugin-defscript.git"
+  },
+  "keywords": [
+    "awesome",
+    "fabulous",
+    "fantastic"
+  ],
+  "author": "Gabriel Ratener <gabe9693@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defscript/rollup-plugin-defscript/issues"
+  },
+  "homepage": "https://github.com/defscript/rollup-plugin-defscript#readme",
+  "dependencies": {
+    "defscript": "^0.0.7",
+    "escodegen": "^1.11.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.17.0"
+  }
+}
