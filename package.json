@@ -1,6 +1,7 @@
 {
   "name": "rollup-plugin-defscript",
   "type": "module",
+  "module": "index.mjs",
   "version": "0.1.1",
   "description": "Bundle defscript modules",
   "main": "index.mjs",
