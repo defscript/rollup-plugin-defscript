@@ -2,10 +2,9 @@
   "name": "rollup-plugin-defscript",
   "type": "module",
   "module": "index.mjs",
-  "jsnext:main": "index.mjs",
-  "version": "0.1.3",
+  "main": "index-classic.js",
+  "version": "0.1.4",
   "description": "Bundle defscript modules",
-  "main": "index.mjs",
   "scripts": {
     "test": "node --experimental-modules --es-module-specifier-resolution=node test.mjs"
   },
@@ -26,7 +25,8 @@
   "homepage": "https://github.com/defscript/rollup-plugin-defscript#readme",
   "dependencies": {
     "defscript-core": ">=0.0.9",
-    "escodegen": "^1.11.1"
+    "escodegen": "^1.11.1",
+    "esm": "^3.2.25"
   },
   "devDependencies": {
     "rollup": "^1.17.0"
