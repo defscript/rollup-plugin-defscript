@@ -3,7 +3,7 @@
   "type": "module",
   "module": "index.mjs",
   "main": "index-classic.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Bundle defscript modules",
   "scripts": {
     "test": "node --experimental-modules --es-module-specifier-resolution=node test.mjs"
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/defscript/rollup-plugin-defscript#readme",
   "dependencies": {
-    "defscript-core": ">=0.0.9",
+    "defscript-core": ">=0.1.1",
     "escodegen": "^1.11.1",
     "esm": "^3.2.25"
   },
