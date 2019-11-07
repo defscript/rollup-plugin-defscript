@@ -30,18 +30,9 @@ const defscript = (options = optionDefaults) => {
                 }
 
                 const source = fs.readFileSync(id, 'utf8');
+                const {code, map} = core.compile(source, options);
 
-                try {
-                    const {code, map} = core.compile(source, options);
-
-                    return {code, map: map.toString()};
-                } catch (e) {
-                    console.error(source);
-
-                    console.error(e.message);
-                    
-                    //throw new Error(e.message);
-                }
+                return {code, map: map.toString()};
             } else {
                 return null;
             }
